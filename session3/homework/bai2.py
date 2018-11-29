@@ -1,10 +1,12 @@
+from random import randint
+n = randint(1,100)
 
 while True:
-    n = int(input("Guess my number (1-100)?"))
-    if n <= 50:
+    a = int(input("Guess my number (1-100)?"))
+    if a<n:
         print("too small")
-    elif n > 51:
+    elif a>n:
         print("A little too large")
-    elif n == 51:
+    else :
         print("Bingo")
         break
