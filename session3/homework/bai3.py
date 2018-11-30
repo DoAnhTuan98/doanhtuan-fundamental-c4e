@@ -1,4 +1,10 @@
 while True:
     n = str(input("Enter a number: "))
-    print("Digit count:",len(n))
+    
+    if n.isdigit():
+        print("Digit count:",len(n))
+    else:
+        print("Error")
+    
+        
     
