@@ -4,6 +4,7 @@
 
 
 items = ["bun dau","bun bo","bun rieu"]
-print(items)
-items.append("Thit Duc")
+print(items[1])
+items[1] = "bun bo nam bo" # thay doi bien
+print(items[1])
 print(items)
