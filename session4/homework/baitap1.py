@@ -16,7 +16,7 @@ elif n == "D":
     m = int(input("delete position:"))
     
     items.pop(m)
-    print(*items,end = ",") 
+    print(*items,end = ",")
 
 
  

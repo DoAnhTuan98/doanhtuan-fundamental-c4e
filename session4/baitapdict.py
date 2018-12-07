@@ -8,3 +8,4 @@ tudien = {
 print(*tudien)
 a = str(input("your code:"))
 print("co nghia la:", tudien[a] )
+

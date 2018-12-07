@@ -13,5 +13,4 @@ n = str(input("du doan:"))
 if n == a[b]:
     print("Hura")
 else:
-    print(":(")
-
+    print(":(") 
