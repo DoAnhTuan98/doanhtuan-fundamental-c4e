@@ -23,6 +23,8 @@ if n == 4:
     right_answer += 1
 else:
     print(":(")
+print("Estimate this answer (exact calculation not needed):")
+print("Jack scored these marks in 5 math tests:49,81,72,66 and 52. What is the mean?")
 for k,v in p2.items():
     print(k,v,sep = ".")
 m = int(input("your choice:"))
